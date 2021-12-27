@@ -1,11 +1,11 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-11T22:42:43+09:00 </code>
-
-## Read this first
+<code>Last updated : 2021-12-13</code>
 
 <code> Fell free to [contact me](https://discord.gg/WZVP2HuAag) if you spot mistake or have question.</code>
+
+## Read this first
 
 ## Table of contents
 
@@ -20,6 +20,13 @@
 [Panels](#5panels)
 
 [Other](#6other)
+
+# 0.Kit
+
+Parts listed on the BOM can be purchased in kit format from above vendors
+
+- [kb-3d.com store](https://kb-3d.com/store/81-snakeoilxy)
+- [Mellow motion kit](https://www.aliexpress.com/item/1005003678647655.html)
 
 # 1.Frame
 
@@ -121,8 +128,8 @@
 | Button head M3x20-Screw   | 1        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Button head M3x30-Screw   | 4        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Button head M3x35-Screw   | 2        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
-| Button head M3x6-Screw    | 69       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
-| Button head M3x8-Screw    | 3        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
+| Button head M3x6-Screw    | 75       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
+| Button head M3x8-Screw    | 3        | 18 if using printed 80T pulley                                                                   |                                                        |                                                                                                                                                                                                             |
 | Button head M4x25-Screw   | 2        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Button head M4x6-Screw    | 4        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Button head M5x10-Screw   | 6        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
@@ -153,7 +160,7 @@
 | Small size M5-Washer      | 2        | ISO 7092                                                                                         |                                                        |                                                                                                                                                                                                             |
 | Socket head M2.5x12-Screw | 2        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Socket head M3x10-Screw   | 107      |                                                                                                  |                                                        |                                                                                                                                                                                                             |
-| Socket head M3x12-Screw   | 15       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
+| Socket head M3x12-Screw   | 18       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Socket head M3x14-Screw   | 18       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Socket head M3x16-Screw   | 10       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Socket head M3x20-Screw   | 2        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
@@ -164,7 +171,6 @@
 | Socket head M3x6-Screw    | 6        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Socket head M3x70-Screw   | 6        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Socket head M3x8-Screw    | 57       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
-| Socket head M4x12-Screw   | 3        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Socket head M6x14-Screw   | 56       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Spring washer M3          | 60       |                                                                                                  |                                                        |                                                                                                                                                                                                             |
 | Standard size M5-Washer   | 4        |                                                                                                  |                                                        |                                                                                                                                                                                                             |
@@ -172,7 +178,7 @@
 
 # 3.Motion
 
-<code>The printer was designed based on dimension of Gates pulleys and idlers. Modification of printed parts may require different types of pulleys and idlers.</code>
+<code>The printer was designed based on dimension of Gates pulleys and idlers. Modification of printed parts may required to use different types of pulleys and idlers.</code>
 
 | Item                                          | Quantity | Description                                                                             | default link/affiliate link                            | non-affiliate link                                                  |
 | --------------------------------------------- | -------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------- |
