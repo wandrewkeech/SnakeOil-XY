@@ -5,9 +5,22 @@
 
 # SnakeOil XY
 
-Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
+Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
 ![Render-angle](./Doc/img/angle-render.png)
+
+## Beta 3 release (2023-01-28)
+
+
+- Add [IDEX variant](./BETA3_IDEX_Release_STL)(by Charles)
+- Add [4PR variant](./BETA3_4PR_Release_STL) with new [Extended CoreXY kinematic](https://github.com/SnakeOilXY/klipper-extended-corexy-kinematic)
+- Add klicky probe support(by Charles)
+- New bed coupling kinematic using silicon spacers
+- Add side-blower aux fan module
+- Add EBB can toolhead board support
+- Remove outdated components
+- Merge toolhead design(1515 and 2020 gantry now use the same toolhead front/back/bottom design) and some small improvements on geometry
+
 
 ## Features
 
@@ -20,7 +33,15 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
     </thead>
     <tbody>
         <tr>
-            <td>3 Point bed leveling</td>
+            <td>Selectable kinematic : CoreXY, Hibryd-CoreXY </td>
+            <td>(coming soon)</td>
+        </tr>
+        <tr>
+            <td>Selectable single or dual toolhead </td>
+            <td>(coming soon)</td>
+        </tr>
+        <tr>
+            <td>3 Point auto bed tramming</td>
             <td>HevORT, Wobble ring</td>
         </tr>
         <tr>
@@ -81,6 +102,13 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 ## Input shaper test result (beta2 1515 gantry with Sherpa mini extruder)
 
 ![Shaper](./Doc/img/beta2-accel-test.png)
+
+## Layer pitch measure (beta2 1515 gantry with Sherpa mini extruder)
+
+- Measure result provided by [株式会社グーテンベルク](https://gutenberg.co.jp/)
+- PLA, 0.4mm nozzle, sliced with Cura 4.12.1 using "CoreXY FAST" profile.
+
+![Shaper](./Doc/img/layer-measure.png)
 
 ## Demo videos
 
